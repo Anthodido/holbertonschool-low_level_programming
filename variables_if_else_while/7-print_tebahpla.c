@@ -7,7 +7,7 @@
 
 int main(void)
 {
-char reverse
+char reverse;
 for (reverse = 'z'; reverse <= 'a'; reverse++)
 putchar (reverse);
 putchar ('\n');
