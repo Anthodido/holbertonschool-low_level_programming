@@ -1,4 +1,4 @@
-#include <stdio.h>
+*0;276;0c#include <stdio.h>
 #include <string.h>
 /**
  *Main - Entry
@@ -11,6 +11,6 @@ int main(void)
 char alpha
 while(alpha = 'a'; alpha <= 'z'; alpha++'\n')
 putchar(alpha)
-putchar('')
+putchar('\n')
 }
 return(0)
