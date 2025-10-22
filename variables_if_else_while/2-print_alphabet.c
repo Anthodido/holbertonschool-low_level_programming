@@ -1,15 +1,15 @@
-*0;276;0c#include <stdio.h>
+#include <stdio.h>
 #include <string.h>
 /**
- *Main - Entry
- *return: 0 (success
+ * main - entry point
+ * return: always 0
  *
  */
 
 int main(void)
 {
 char alpha
-while(alpha = 'a'; alpha <= 'z'; alpha++'\n')
+for (alpha = 'a'; alpha <= 'z'; alpha ++)
 putchar(alpha)
 putchar('\n')
 }
