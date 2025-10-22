@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * main - entry point
- * return: always 0
+ * main - Entry point
+ * Return: 0 (Success)
  *
  */
 
