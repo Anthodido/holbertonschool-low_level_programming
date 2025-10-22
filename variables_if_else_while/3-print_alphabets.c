@@ -8,10 +8,12 @@
 
 int main(void)
 {
-char alpha;
-for (alpha = 'a'; alpha <= 'z'; alpha++)
-for (alpha = 'A'; alpha <= 'Z'; alpha++)
+char alphaa;
+char alphaA;
+for (alphaa = 'a'; alphaa <= 'z'; alphaa++)
+for (alphaA = 'A'; alphaA <= 'Z'; alphaA++)
 putchar(alpha);
+putchar(alphaA);
 putchar('\n');
 
 return (0);
