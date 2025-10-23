@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *print_last_digit -Affiche le dernier chiffre d'un nombre
+ *print_last_digit - Affiche le dernier chiffre d'un nombre
  *@c: Un nombre au hasard
  *Return lastdigit dernier chiffre zebi
  */
@@ -13,9 +13,6 @@ if (last_digit < 0)
 last_digit = -last_digit;
 
 _putchar (last_digit + '0');
-
-else
-_putchar (last_digit);
 
 return (last_digit);
 }
