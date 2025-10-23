@@ -2,7 +2,7 @@
 /**
  *print_last_digit - Affiche le dernier chiffre d'un nombre
  *@c: Un nombre au hasard
- *Return lastdigit dernier chiffre zebi
+ *Return(lastdigit): lastdigit dernier chiffre zebi
  */
 int print_last_digit(int c)
 {
