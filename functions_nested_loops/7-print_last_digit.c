@@ -1,7 +1,7 @@
 #include "main.h"
-/*
- *
- *
+/**
+ *print_last_digit -Affiche le dernier chiffre d'un nombre
+ *@c: Un nombre au hasard
  *
  */
 int print_last_digit(int c)
