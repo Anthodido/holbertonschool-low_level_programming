@@ -5,5 +5,5 @@
  *Return: 1 if it's  lowercase else 0
  */
 
-int _islower(int c)
+int isalpha(int c)
 {
