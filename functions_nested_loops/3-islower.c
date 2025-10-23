@@ -2,7 +2,7 @@
 /**
  *_islower -Verifie si le caractere est en minuscule
  *@c: est le caractère à vérifier
- *return: 1 if it's  lowercase else 0
+ *Return: 1 if it's  lowercase else 0
  */
 
 int _islower(int c)
