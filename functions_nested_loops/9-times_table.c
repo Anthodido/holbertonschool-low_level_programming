@@ -17,8 +17,8 @@ r = d * m;
 if (r < 10)
 {
 if (r != 0)
-_putchar (' ');
-_putchar (r + '0');
+_putchar(' ');
+_putchar(r + '0');
 }
 
 else
