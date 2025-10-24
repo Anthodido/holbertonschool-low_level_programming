@@ -1,8 +1,10 @@
 #include "main.h"
 /**
- *times_table - montre chaque minutes de la journée
- *
- *Return: (success)
+ *add-ajoute
+ *int add-créer deux variables
+ *@a: première
+ *@b: deuxième
+ *Return: r'envoie le résultat
  */
 int add(int a, int b)
 {
