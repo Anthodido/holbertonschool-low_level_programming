@@ -4,11 +4,10 @@
  *
  *Return: (success)
  */
-int add(int, int)
+int add(a, b)
 {
-int e;
-e = add(89, 9);
-_putchar(e);
 
-return (e);
+return (a + b);
+
 }
+
