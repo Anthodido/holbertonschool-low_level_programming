@@ -26,7 +26,7 @@ _putchar((r / 10) + '0');
 _putchar((r % 10) + '0');
 }
 
-if (r != 9)
+if (m != 9)
 {
 _putchar(',');
 _putchar(' ');
