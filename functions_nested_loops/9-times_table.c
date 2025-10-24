@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- *jack_bauer - montre chaque minutes de la journée
+ *times_table - montre chaque minutes de la journée
  *
  *Return: (success)
  */
- void times_table(void)
- {
+void times_table(void)
+{
 int d, m, r;
 
 for (d = 0; d <= 9; d++)
@@ -20,7 +20,6 @@ if (r != 0)
 _putchar(' ');
 _putchar(r + '0');
 }
-
 else
 {
 _putchar((r / 10) + '0');
