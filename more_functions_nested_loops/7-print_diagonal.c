@@ -5,7 +5,7 @@
  *
  * Description: Si n est inférieur ou égal à 0, la fonction affiche
  * simplement un retour à la ligne. Sinon, elle affiche une diagonale
- * formée par le caractère '\' avec des espaces croissants avant chaque ligne.
+ * formée par le caractère'\' avec des espaces croissants avant chaque ligne.
  *
  * Return: Rien (void)
  */
