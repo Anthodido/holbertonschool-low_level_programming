@@ -19,7 +19,7 @@ if (n <= 0)
 _putchar('\n');
 return;
 }
-for (h = 0; h < n; h++)
+for (h = 0; h <= n; h++)
 for (v = 0; v <= h; v++)
 _putchar (' ');
 _putchar ('\\');
