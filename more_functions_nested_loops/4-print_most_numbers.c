@@ -1,4 +1,4 @@
-#include'main.h'
+#include"main.h"
 /**
  * print_most_numbers - rien
  *
@@ -7,9 +7,9 @@
 
 void print_most_numbers(void)
 {
-char exc
+char exc;
 for (exc = '0'; exc <= '9'; exc++)
 
-if (exc '2' && '4')
+if (exc != '2' && '4')
 _putchar (exc);
 }
