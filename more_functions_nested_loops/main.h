@@ -10,6 +10,7 @@ int print_last_digit(int);
 int add(int, int);
 int _isupper(int c);
 int _isdigit(int c);
+int mul(int a, int b);
 void print_alphabet(void);
 void print_alphabet_x10(void);
 void jack_bauer(void);
