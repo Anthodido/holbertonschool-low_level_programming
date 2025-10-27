@@ -10,7 +10,7 @@ void print_most_numbers(void)
 char exc;
 for (exc = '0'; exc <= '9'; exc++)
 
-if (exc != '2' && '4')
-_putchar (exc);
+if (exc != '2' && exc != '4')
+_putchar (exc + '0');
 _putchar ('\n');
 }
