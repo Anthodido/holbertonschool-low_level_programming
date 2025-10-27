@@ -12,4 +12,5 @@ for (exc = '0'; exc <= '9'; exc++)
 
 if (exc != '2' && '4')
 _putchar (exc);
+_putchar ('\n');
 }
