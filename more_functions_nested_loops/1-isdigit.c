@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isupper - Créer la variable c
+ * _isdigit - Créer la variable c
  * je vais de 0 à 9
  * Return: (1) si la variable c nombre sinon (0)
  * @c: variale
