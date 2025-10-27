@@ -19,9 +19,11 @@ if (n <= 0)
 _putchar('\n');
 return;
 }
-for (h = 0; h <= n; h++)
-for (v = 0; v <= h; v++)
+for (h = 0; h < n; h++)
+{
+for (v = 0; v < h; v++)
 _putchar (' ');
 _putchar ('\\');
 _putchar ('\n');
+}
 }
