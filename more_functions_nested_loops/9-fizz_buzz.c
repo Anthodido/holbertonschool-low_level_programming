@@ -15,7 +15,7 @@ int main (void)
 int n;
 {
 for (n = 1; n <= 100; n++)
-printf('\n');
+printf("\n");
 }
 if (n % 5 == 0 && n % 3 == 0)
 printf("FizzBuzz");
@@ -26,8 +26,8 @@ printf("Fizz");
 else if (n % 5 == 0)
 printf("Buzz");
 
-else (n != 100)
-printf(' ');
+if (n != 100)
+printf(" ");
 
 
 return (0);
