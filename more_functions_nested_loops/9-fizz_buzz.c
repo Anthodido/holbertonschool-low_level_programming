@@ -15,7 +15,7 @@ int main (void)
 int n;
 {
 for (n = 1; n <= 100; n++)
-_putchar ('\n');
+putchar ('\n');
 }
 if (n % 3 == 0)
 printf("Fizz");
@@ -26,6 +26,6 @@ printf("Buzz");
 if (n % 5 == 0 && n % 3 == 0)
 printf("FizzBuzz");
 
-_putchar (' ');
+putchar (' ');
 return (0);
 }
