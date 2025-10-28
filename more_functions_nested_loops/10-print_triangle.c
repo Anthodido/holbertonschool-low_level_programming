@@ -19,10 +19,10 @@ return;
 }
 for (L = 1; L <= size; L++)
 {
-for (l = 0; l <= size - L; l++)
+for (l = 1; l <= size - L; l++)
 _putchar(' ');
 
-for (l = 1; l < L; l++)
+for (l = 1; l <= L; l++)
 _putchar('#');
 _putchar('\n');
 }
