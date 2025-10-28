@@ -1,13 +1,12 @@
 #include "main.h"
 /**
- * print_triangle - imprime un triangle de '#' selon la taille donnée
- * @size: taille du triangle
- *
- * Description: Cette fonction affiche un triangle aligné à droite
- * utilisant le caractère '#' et une taille spécifiée par l'utilisateur.
- * Si size <= 0, la fonction affiche simplement une nouvelle ligne.
- */
-
+* print_triangle - imprime un triangle de '#' selon la taille donnée
+* @size: taille du triangle
+*
+* Description: Cette fonction affiche un triangle aligné à droite
+* utilisant le caractère '#' et une taille spécifiée par l'utilisateur.
+* Si size <= 0, la fonction affiche simplement une nouvelle ligne.
+*/
 void print_triangle(int size)
 {
 int L, l;
