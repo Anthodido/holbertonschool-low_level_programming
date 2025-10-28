@@ -17,12 +17,12 @@ if (size <= 0)
 _putchar ('\n');
 return;
 }
-for (L = 0; L <= size; L++)
+for (L = 1; L <= size; L++)
 {
-for (l = 0; l <= size - L; l++)
+for (l = 1; l <= size - L; l++)
 _putchar(' ');
 
-for (l = 0; l < L; l++)
+for (l = 1; l < L; l++)
 _putchar('#');
 _putchar('\n');
 }
