@@ -12,12 +12,10 @@ int f = 0;
 int l;
 
 while (s[f] != '\0')
-{
 f++;
-}
+
 for (l = f - 1; l >= 0; l--)
-{
 _putchar (s[l]);
-}
+
 _putchar ('\n');
 }
