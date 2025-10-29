@@ -7,7 +7,7 @@
  * Description: Cette fonction prend deux pointeurs vers des entiers et
  * échange leurs valeurs en utilisant une variable temporaire.
  */
- 
+
 void swap_int(int *a, int *b)
 
 {
@@ -15,7 +15,7 @@ int x;
 
 x = *a;
 *a = *b;
-*b = x
+*b = x;
 
 return;
 }
