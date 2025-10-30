@@ -16,6 +16,7 @@ while (str[f] != '\0')
 if (f % 2 != 0)
 _putchar (str[f]);
 }
-_putchar ('\n');
+f++;
 }
+_putchar ('\n');
 }
