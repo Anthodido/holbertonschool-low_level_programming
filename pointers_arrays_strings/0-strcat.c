@@ -22,6 +22,5 @@ i++;
 j++;
 }
 dest[i] = '\0';
-printf ("\n");
 return (dest);
 }
