@@ -4,7 +4,7 @@
  * @str: pointer to the string to be printed
  *
  * Description: This function prints the second half of a string.
- * If the number of characters is odd, it prints the last (length - 1) / 2 characters.
+ * is odd, it prints the last (length - 1) / 2 characters.
  * It then prints a newline character at the end.
  */
 void puts_half(char *str)
