@@ -13,7 +13,6 @@ int i = 0;
 int sign = 1;
 int num = 0;
 int digit;
-
 while (s[i] != '\0')
 {
 if (s[i] == '-')
@@ -21,7 +20,6 @@ sign *= -1;
 else if (s[i] >= '0' && s[i] <= '9')
 {
 digit = s[i] - '0';
-
 if (num > (INT_MAX - digit) / 10)
 {
 if (sign == 1)
@@ -29,13 +27,12 @@ return (INT_MAX);
 else
 return (INT_MIN);
 }
-
 num = num * 10 + digit;
 }
 else if (num > 0)
 break;
 i++;
 }
-
-return (num * sign);
+return (num *sign);
 }
+
