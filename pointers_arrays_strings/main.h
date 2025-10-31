@@ -9,6 +9,7 @@ int _abs(int);
 int print_last_digit(int);
 int add(int, int);
 int _strlen(char *s);
+char *_strncpy(char *dest, char *src, int n);
 char *_strncat(char *dest, char *src, int n);
 char *_strcat(char *dest, char *src);
 char *_strcpy(char *dest, char *src);
