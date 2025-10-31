@@ -10,6 +10,7 @@ int print_last_digit(int);
 int add(int, int);
 int _strlen(char *s);
 int _strcmp(char *s1, char *s2);
+int _atoi(char *s);
 char *string_toupper(char *);
 char *cap_string(char *);
 char *leet(char *);
