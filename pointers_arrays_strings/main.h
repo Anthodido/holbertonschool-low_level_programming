@@ -9,6 +9,7 @@ int _abs(int);
 int print_last_digit(int);
 int add(int, int);
 int _strlen(char *s);
+void print_array(int *a, int n);
 void puts_half(char *str);
 void puts2(char *str);
 void rev_string(char *s);
