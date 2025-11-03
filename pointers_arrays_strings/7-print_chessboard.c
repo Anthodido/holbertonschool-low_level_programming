@@ -2,23 +2,21 @@
 
 /**
  * print_chessboard - affiche un échiquier 8x8
- * @a: tableau contenant les pièces du jeu
+ * @a: tableau à deux dimensions représentant l’échiquier
  *
  * Return: rien
  */
 void print_chessboard(char (*a)[8])
 {
-int i = 0;
-int y = 0;
+int i;
+int j;
 
-while (i < 8)
+for (i = 0; i < 8; i++)
 {
-while (y < 8)
+for (j = 0; j < 8; j++)
 {
-_putchar(a[i][y]);
-y++;
+_putchar(a[i][j]);
 }
 _putchar('\n');
-i++;
 }
 }
