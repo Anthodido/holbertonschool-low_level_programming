@@ -27,6 +27,7 @@ char *_strcpy(char *dest, char *src);
 void print_chessboard(char (*a)[8]);
 void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
+int _strlen_recursion(char *s);
 void print_diagsums(int *a, int size);
 void reverse_array(int *a, int n);
 void print_array(int *a, int n);
