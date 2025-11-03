@@ -29,13 +29,11 @@ break;
 }
 h++;
 }
-
 if (!found)
 break;
 
 count++;
 i++;
 }
-
 return (count);
 }
