@@ -14,7 +14,6 @@ return (0);
 return (check_prime(n, 2));
 }
 
-
 /**
  * check_prime - fonction récursive pour tester les diviseurs
  * @n: nombre à vérifier
@@ -31,5 +30,5 @@ else if (i * i > n)
 {
 return (1);
 }
-return (check_prime (n, i + 1));
+return (check_prime(n, i + 1));
 }
