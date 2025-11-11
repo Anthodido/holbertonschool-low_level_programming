@@ -15,6 +15,7 @@ int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 int is_prime_number(int n);
 unsigned int _strspn(char *s, char *accept);
+char *str_concat(char *s1, char *s2);
 char *_strstr(char *haystack, char *needle);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
