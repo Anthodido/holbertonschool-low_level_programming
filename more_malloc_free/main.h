@@ -34,6 +34,7 @@ char *_strcat(char *dest, char *src);
 char *_strcpy(char *dest, char *src);
 char *create_array(unsigned int size, char c);
 char *_strdup(char *str);
+void *_calloc(unsigned int nmemb, unsigned int size);
 void print_chessboard(char (*a)[8]);
 void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
