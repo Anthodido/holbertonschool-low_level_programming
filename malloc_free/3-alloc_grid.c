@@ -11,10 +11,8 @@ int **alloc_grid(int width, int height)
 {
 int **dim;
 int i, j;
-if (width <= 0)
-return (NULL);
 
-if (height <= 0)
+if (width <= 0 || height <= 0)
 return (NULL);
 
 dim = malloc(height * sizeof(int *));
@@ -23,9 +21,17 @@ return (NULL);
 
 for (i = 0; i < height; i++)
 {
-dim[i] = malloc(width * sizeof(int ));
+dim[i] = malloc(width * sizeof(int));
 if (dim[i] == NULL)
+{
+while (i > 0)
+{
+i--;
+free(dim[i]);
+}
+free(dim);
 return (NULL);
+}
 
 for (j = 0; j < width; j++)
 dim[i][j] = 0;
