@@ -17,6 +17,7 @@ int is_prime_number(int n);
 int **alloc_grid(int width, int height);
 void free_grid(int **grid, int height);
 unsigned int _strspn(char *s, char *accept);
+char *string_nconcat(char *s1, char *s2, unsigned int n);
 char *str_concat(char *s1, char *s2);
 char *_strstr(char *haystack, char *needle);
 char *_strpbrk(char *s, char *accept);
