@@ -13,6 +13,7 @@ int _strcmp(char *s1, char *s2);
 int _atoi(char *s);
 int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
+int *array_range(int min, int max);
 int is_prime_number(int n);
 int **alloc_grid(int width, int height);
 void free_grid(int **grid, int height);
