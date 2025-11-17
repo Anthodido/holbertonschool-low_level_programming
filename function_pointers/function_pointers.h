@@ -1,5 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
+#include <stddef.h>
 
 int _putchar(char c); /**je déclare la fonction _putchar*/
 int _islower(int c);
@@ -36,6 +37,7 @@ char *_strcpy(char *dest, char *src);
 char *create_array(unsigned int size, char c);
 char *_strdup(char *str);
 void print_name(char *name, void (*f)(char *));
+void array_iterator(int *array, size_t size, void (*action)(int));
 void *_calloc(unsigned int nmemb, unsigned int size);
 void print_chessboard(char (*a)[8]);
 void _puts_recursion(char *s);
