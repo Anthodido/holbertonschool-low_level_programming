@@ -17,6 +17,7 @@ int _sqrt_recursion(int n);
 int *array_range(int min, int max);
 int is_prime_number(int n);
 int **alloc_grid(int width, int height);
+int int_index(int *array, int size, int (*cmp)(int));
 void free_grid(int **grid, int height);
 unsigned int _strspn(char *s, char *accept);
 char *string_nconcat(char *s1, char *s2, unsigned int n);
