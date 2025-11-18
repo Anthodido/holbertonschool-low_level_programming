@@ -19,6 +19,7 @@ int is_prime_number(int n);
 int **alloc_grid(int width, int height);
 int int_index(int *array, int size, int (*cmp)(int));
 int sum_them_all(const unsigned int n, ...);
+void print_numbers(const char *separator, const unsigned int n, ...);
 void free_grid(int **grid, int height);
 unsigned int _strspn(char *s, char *accept);
 char *string_nconcat(char *s1, char *s2, unsigned int n);
