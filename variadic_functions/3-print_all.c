@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 
-typedef void (*printer_f)(va_list * ap);
+typedef void (*printer_f)(va_list *ap);
 
 static void print_char(va_list *ap)
 {
@@ -64,6 +64,6 @@ j++;
 }
 i++;
 }
-printf("\n");
 va_end(ap);
+printf("\n");
 }
