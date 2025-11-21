@@ -1,8 +1,14 @@
 #ifndef MAIN_H
 #define MAIN_H
 #include <stddef.h>
-
-int _putchar(char c); /**je déclare la fonction _putchar*/
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1, on error -1.
+ */
+ 
+int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
 int print_sign(int n);
