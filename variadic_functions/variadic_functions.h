@@ -7,7 +7,7 @@
  *
  * Return: On success 1, on error -1.
  */
- 
+
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
