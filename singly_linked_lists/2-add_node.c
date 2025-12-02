@@ -31,7 +31,7 @@ if (copie == NULL)
 free(new);
 return (NULL);
 }
-slen = strlen(copie);
+for (slen = 0; copie[slen] != '\0'; slen++)
 
 new->str = copie;
 new->len = slen;
