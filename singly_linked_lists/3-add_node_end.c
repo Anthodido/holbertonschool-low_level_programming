@@ -1,0 +1,52 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include "lists.h"
+/**
+ * add_node_end - Ajoute un nouveau noeud a la fin d'une liste list_t.
+ * @head: Pointeur vers le pointeur sur la tete de la liste
+ * @str: Chaine de caracteres a dupliquer dans le nouveau noeud
+ *
+ * Return: L'adresse du nouveau noeud, ou NULL en cas d'echec
+ */
+list_t *add_node_end(list_t **head, const char *str)
+{
+list_t *new, *tmp;
+char *copie;
+unsigned int slen;
+
+if (str == NULL || head == NULL)
+{
+return (NULL);
+}
+new = malloc(sizeof(list_t));
+if (new == NULL)
+{
+return (NULL);
+}
+copie = strdup(str);
+if (copie == NULL)
+{
+free(new);
+return (NULL);
+}
+for (slen = 0; copie[slen] != '\0'; slen++)
+
+new->str = copie;
+new->len = slen;
+new->next = NULL;
+
+if (*head == NULL)
+{
+*head = new;
+return (new);
+}
+tmp = *head;
+
+while (tmp->next != NULL)
+{
+tmp = tmp->next;
+}
+tmp->next = new;
+return (new);
+}
