@@ -30,7 +30,7 @@ new->prev = NULL;
 *head = new;
 return (new);
 }
-else 
+else
 {
 tmp = *head;
 while (tmp->next != NULL)
