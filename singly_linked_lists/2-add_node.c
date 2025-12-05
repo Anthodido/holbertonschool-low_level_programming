@@ -15,7 +15,7 @@ list_t *new;
 char *copie;
 unsigned int slen;
 
-if (str == NULL || head == NULL)
+if (head == NULL)
 {
 return (NULL);
 }
